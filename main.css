@@ -1,0 +1,452 @@
+html{
+  margin: 8;
+  font-size:16px;
+  font-family:'Neue Haas Black', 'sans-serif';
+  box-sizing: border-box;
+
+}
+
+body{
+  font-size:1.6rem;
+  margin:0;
+  background-color: black;
+}
+
+
+
+.button {
+  position: fixed !important;
+  transform: none !important;
+  top: 10px; 
+  right: 10px; 
+  z-index: 1000; 
+  border: 2px solid #fff;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+#colorToggleButton {
+
+  top: 10px; 
+}
+
+
+.invert {
+  filter: invert(100%);
+  background-color: #F0F0F0
+}
+
+
+.cell4{
+  width: 24.5625rem;
+height: 9.6875rem;
+  flex-shrink: 0;
+  position: absolute;
+  top:0rem;
+  left:0rem;
+}
+
+.cell2{
+  width: 15.9375rem;
+height: 15.5625rem;
+flex-shrink: 0;
+border: 0cm;
+border-radius: 999rem;
+position: absolute;
+  top:4.88rem;
+  left:8.63rem;
+  z-index: 999;
+}
+
+.cell1{
+  height: 11.625rem;
+width: 5.0625rem;
+flex-shrink: 0;
+box-shadow: 0px 4px 6.3px 0px rgba(0, 0, 0, 0.25);
+position: absolute;
+top:11.56rem;
+left:2.31rem;
+z-index: 990;
+}
+.cell3{
+width: 24.5625rem;
+height: 21.4375rem;
+flex-shrink: 0;
+position: absolute;
+bottom:0rem;
+left:0rem;
+}
+
+.cell-text{
+  width: 9.00094rem;
+height: 2.0625rem;
+flex-shrink: 0;
+color: #F0F0F0;
+font-family: "Kepler Std";
+font-size: 1.75rem;
+font-style: italic;
+font-weight: 500;
+line-height: 2.11456rem;
+letter-spacing: 0.0175rem;
+text-transform: uppercase;
+position: absolute;
+top:21.69rem;
+left:14.69rem;
+z-index: 999;
+}
+
+.flex-container{
+  display: inline-flex;
+flex-direction: row;
+align-items: left;
+justify-content: left;
+z-index: 998;
+flex-wrap: nowrap;
+gap:-1rem;
+width: 100%;
+
+}
+
+.amm1{
+  width: 22.8125rem;
+  height: 22.6875rem;
+}
+
+
+.amm2{
+  width: 24.4375rem;
+  height: 22.75rem;
+}
+
+.amm3{
+  width: 22.8125rem;
+  height: 22.6875rem;
+  left: -0.75rem;
+  top:0rem;
+}
+
+.amm4{
+  width: 37.5rem;
+height: 27.4375rem;
+flex-shrink: 0;
+position: absolute;
+top:19.06rem;
+scale: (0.5);
+}
+
+.amm-text{
+  width: 12.4375rem;
+height: 4.1875rem;
+flex-shrink: 0;
+color: #F0F0F0;
+font-family: "Kepler Std";
+font-size: 1.75rem;
+font-style: italic;
+font-weight: 500;
+line-height: 2.11456rem;
+letter-spacing: 0.0175rem;
+text-transform: uppercase;
+position: absolute;
+top:41rem;
+left:57.25rem;
+}
+
+
+.inver1{
+  width: 33.25rem;
+height: 46.625rem;
+flex-shrink: 0;
+border: 1px solid #F0F0F0;
+box-shadow: 0px 4px 11.6px 0px rgba(0, 0, 0, 0.25);
+position: absolute;
+top:7.44rem;
+left:-0.75rem;
+}
+
+.inver2{
+  width: 30.9375rem;
+  height: 46.625rem;
+  flex-shrink: 0;
+  border: 1px solid #F0F0F0;
+box-shadow: 0px 4px 16.8px 0px rgba(0, 0, 0, 0.25);
+position: absolute;
+top:-2.3rem;
+right: -2.4rem;
+}
+
+.inver3{
+  width: 21.625rem;
+  height: 14.9375rem;
+  flex-shrink: 0;
+  border-radius: 7.46875rem;
+border: 1px solid #F0F0F0;
+box-shadow: 0px 4px 16.8px 0px rgba(0, 0, 0, 0.25);
+position: absolute;
+top:1.13rem;
+left:21.2rem;
+}
+
+.inver4{
+  width:18.875rem ;
+  height: 28.5rem;
+  flex-shrink: 0;
+  border-radius: 9.4375rem;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 16.8px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top:21rem;
+  left: 34rem;
+}
+
+.inver-text{
+  width: 12.8125rem;
+  height: 2.0625rem;
+  flex-shrink: 0;
+color: #F0F0F0;
+font-family: "Kepler Std";
+font-size: 1.75rem;
+font-style: italic;
+font-weight: 500;
+line-height: 2.11456rem;
+letter-spacing: 0.0175rem;
+text-transform: uppercase;
+position: absolute;
+top:17.5rem;
+left:33.94rem;
+}
+
+
+
+
+.tik1{
+  width: 27.0625rem;
+height: 17.9375rem;
+flex-shrink: 0;
+position: absolute;
+left: 52.9rem;
+top:0rem;
+}
+
+.tik2{
+  width: 27.0625rem;
+height: 30.6875rem;
+  flex-shrink: 0;
+position: absolute;
+top: 21.3rem;
+left:52.9rem;
+}
+
+.tik3{
+flex-shrink: 0;
+position: absolute;
+left: 0rem;
+top:0rem;
+}
+
+.tik4{
+  flex-shrink: 0;
+position: absolute;
+left: 20.3rem;
+top:0rem;
+}
+
+.tik5{
+  flex-shrink: 0;
+position: absolute;
+left: 21.9rem;
+top:25.3rem;
+border-radius: 14.46875rem;
+box-shadow: 0px 10px 21.4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tik-text{
+  width: 12.8125rem;
+  height: 2.0625rem;
+  flex-shrink: 0;
+color: #F0F0F0;
+font-family: "Kepler Std";
+font-size: 1.75rem;
+font-style: italic;
+font-weight: 500;
+line-height: 2.11456rem;
+letter-spacing: 0.0175rem;
+text-transform: uppercase;
+position: absolute;
+top:18.62rem;
+left:54.19rem;
+}
+
+
+.dino1{
+  position: absolute;
+  top:14.2rem;
+  left:46.9rem;
+}
+
+.dino2{
+  position: absolute;
+  top:11.7rem;
+  left:0rem;
+}
+
+.dino3{
+  position: absolute;
+  top:44rem;
+  left:27.7rem;
+}
+
+.dino4{
+  position: absolute;
+  top:0rem;
+  left:16.5rem;
+}
+
+.dino-text{
+  width: 12.8125rem;
+  height: 2.0625rem;
+  flex-shrink: 0;
+color: #F0F0F0;
+font-family: "Kepler Std";
+font-size: 1.75rem;
+font-style: italic;
+font-weight: 500;
+line-height: 2.11456rem;
+letter-spacing: 0.0175rem;
+text-transform: uppercase;
+position: absolute;
+top:11.75rem;
+left:55.94rem;
+}
+
+.human-video{
+  width: 94.5rem;
+  height: 61.375rem;
+  position: absolute;
+  top:2rem;
+margin: 0;
+padding: 0;
+}
+
+.human-text{
+  flex-shrink: 0;
+color: #F0F0F0;
+font-family: "Kepler Std";
+font-size: 1.75rem;
+font-style: italic;
+font-weight: 500;
+line-height: 2.11456rem;
+letter-spacing: 0.0175rem;
+text-transform: uppercase;
+position: absolute;
+top:2rem;
+left:2rem;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.75; }
+  100% { opacity: 1; }
+}
+
+img:hover {
+  cursor: pointer;
+  animation: blink 1.5s infinite;
+}
+
+
+@media screen and (min-width: 1rem) and (max-width: 70.8124999999rem){
+.cell{
+  visibility: visible;
+}
+
+.amm,
+.inver,
+.tik,
+.dino,
+.human
+{
+  visibility: hidden;
+}
+}
+
+
+
+@media screen and (min-width:70.8125rem) and (max-width:74.62499999rem){
+
+
+.amm{
+  visibility: visible;
+}
+
+.cell,
+.inver,
+.tik,
+.dino,
+.human{
+  visibility: hidden;
+}
+}
+
+@media screen and (min-width:74.625rem) and (max-width:79999999rem) {
+  .cell,
+  .amm,
+  .tik,
+  .dino,
+  .human{
+    visibility: hidden;
+  }
+  
+  .inver{
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width:80rem) and (max-width:85.374999999rem) {
+  .cell,
+  .amm,
+  .inver,
+  .dino,
+  .human{
+    visibility: hidden;
+  }
+  
+  .tik{
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width:85.375rem) and (max-width:94.499999rem) {
+  .cell,
+  .amm,
+  .inver,
+  .tik,
+  .human{
+    visibility: hidden;
+  }
+  
+  .dino{
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width:94.5rem)  {
+  .cell,
+  .amm,
+  .inver,
+  .tik,
+  .dino{
+    visibility: hidden;
+  }
+  
+  .human{
+    visibility: visible;
+  }
+}
+
+
+
